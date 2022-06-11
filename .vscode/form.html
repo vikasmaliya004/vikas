@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            background-color: rgb(211, 23, 23);
+        }
+        
+        button {
+            display: flex;
+            /* align-content: flex-start; */
+            text-justify: center;
+            justify-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/C:\Users\computer bazar\OneDrive\Desktop\vikas" method="post">
+        <label for="fname" id="fname">First name</label>
+        <input type="text" id="fname" maxlength="5" minlength="1" placeholder="Enter your first name" required><br><br>
+        <label for="lname" id="lname">last name</label>
+        <input type="text" id="lname" maxlength="5" minlength="1" placeholder="Enter your last name" required><br><br>
+        <label for="age" id="age">Age</label>
+        <input type="date" id="age" required><br><br>
+        <label for="gender" id="gender">Gender :</label>
+        <label for="gender" id="male">Male</label>
+        <input type="radio" id="male" name="gender" required>
+        <label for="gender" id="female">female</label>
+        <input type="radio" id="female" name="gender" required>
+        <br><br>
+        <label for="chekbox" id="chekbox">Are you Merrid</label>
+        <input type="checkbox" id="chekbox">
+        <br><br>
+        <label for="password" id="password">Passward</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <br><br>
+        <label for="job" id="job">select a job</label>
+        <select id="job" name="job">
+            <option value="police">police
+
+            </option>
+            <option value="officer">officer
+
+            </option>
+            <option value="jjm">jjm
+
+            </option>
+            </select>
+        <br><br>
+        <label for="massage" id="massage">Massage</label>
+        <textarea name="massage" rows="10" cols="30" placeholder="massage"></textarea>
+
+        <br>
+        <br>
+        <input type="submit">
+</body>
+
+</html>
