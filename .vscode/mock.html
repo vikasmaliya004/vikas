@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+    <link href="mock.css" />
+    <style>
+        #main {
+            background-color: blueviolet;
+        }
+        
+        #h2 {
+            justify-content: center;
+            text-align: center;
+        }
+        
+        #btn {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-top: 10px;
+        }
+        
+        #abc {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 40px;
+        }
+        
+        #massage {
+            display: grid;
+            grid-template-columns: 3fr;
+            grid-template-rows: auto;
+            width: 100%;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div id="main">
+            <h2 id="h2">Leave us your precious message</h2>
+            <div id="abc">
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+
+                <input type="text" id="massage" placeholder="Massage">
+            </div>
+            <div id="btn">
+                <button type="button" id="btn">Send Massage</button>
+            </div>
+
+        </div>
+    </form>
+
+
+</body>
+
+</html>
