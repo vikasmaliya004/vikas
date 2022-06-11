@@ -1,0 +1,224 @@
+    body {
+        background-color: rgb(255, 255, 255);
+        color: rgb(208, 208, 236);
+        height: auto;
+        margin: 0;
+    }
+    /* .total {
+        background-color: aliceblue;
+    } */
+    /* .text-side {
+        text-align: center;
+        width: 50%;
+        height: 0px;
+    }
+    
+    #img {
+        display: flex;
+        float: right;
+        width: 50%;
+        height: 500px;
+        padding: 5px;
+    } */
+    
+    h1 {
+        font-weight: 400px;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin: 0%;
+    }
+    
+    h2 {
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin: 0px;
+    }
+    
+    #img {
+        display: block;
+        width: 50%;
+        /* grid-template-columns: 1fr; */
+    }
+    
+    main {
+        max-width: 900px;
+        margin: auto;
+        box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+    }
+    
+    #total {
+        background: #fff;
+    }
+    
+    #head-text {
+        display: flex;
+        flex: 0 1 40vw;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    #head-text h2 {
+        color: #888;
+    }
+    
+    #img {
+        background: url(https://source.unsplash.com/De8wMYoSSBc);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        flex: 0 1 60vw;
+        margin: 0;
+        width: 50%;
+    }
+    
+    .btn {
+        padding: 0.5rem 2rem;
+        border: 1px #ccc solid;
+        display: inline-block;
+        margin: 2rem 0 0;
+        border-radius: 50px;
+        text-decoration: none;
+        color: #333;
+        /* transition: 500ms ease; */
+    }
+    
+    .btn:hover {
+        background: #f4f4f4;
+    }
+    
+    #header {
+        padding: 1.5rem;
+        text-align: center;
+        background: #333;
+        color: #fff;
+    }
+    
+    #header h2 {
+        border-left: dotted 1px #fff;
+        border-right: dotted 1px #fff;
+        display: inline-block;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    
+    .left-side {
+        color: black;
+        padding: 0.8rem;
+        text-align: center;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        margin: auto;
+        color: #333;
+    }
+    
+    footer h3 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    /* Screen Sizes 500px and Up */
+    
+    @media (min-width: 500px) {
+        #total {
+            display: flex;
+            height: 100%;
+        }
+        #head-text {
+            height: 100vh;
+        }
+        #img {
+            height: 100vh;
+        }
+    }
+    /* Screen Sizes 700px and Up */
+    
+    @media (min-width: 700px) {
+        .btn {
+            padding: 1rem 3rem;
+        }
+    }
+    /* h3 {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        margin: 10px;
+    }
+    
+    p {
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    
+    .foot {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .myDiv {
+        background-color: black;
+        color: white;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+    }
+    
+    @media (min-width: 500px) {
+        #landing {
+            display: flex;
+            height: 100%;
+        }
+        #landing-text {
+            height: 100vh;
+        }
+        #landing-image {
+            height: 100vh;
+        }
+    }
+    /* Screen Sizes 700px and Up */
+    /* @media (min-width: 700px) {
+        .btn {
+            padding: 1rem 3rem;
+        }
+    } */
+    /* @media screen {
+        body {
+            height: 200px;
+            width: 100px;
+        }
+    } */
+    /*     
+    .left-side {
+        float: left;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .right {
+        display: flex;
+        float: right;
+        width: 100%;
+        padding: 5px;
+    }
+     */
+    /* .text-side {
+        float: left;
+        width: 50%;
+        padding: 5px;
+    }
+    
+    .ims-side {
+        display: flex;
+        float: right;
+        width: 50%;
+        padding: 5px;
+    } */
